@@ -1,0 +1,52 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #23668c;
+}
+.heading{
+    text-align: center;
+}
+.card{
+    background-color: rgb(236, 236, 236);
+    width: 300px;
+    height: 435px;
+    border-radius: 10px
+    
+}
+.containder{
+display: flex;
+    gap: 40px;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.product{
+    width: 300px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.name{
+    display: flex;
+    justify-content: space-between
+
+}
+.card h3{
+    margin: 10px 10px;
+}
+.b{
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: #F2B830;
+    border-style: none;
+}
+.star{
+    display: flex;
+    width: 50px;
+    margin: 15px 10px;
+    h3{
+    margin: 0px;
+    margin-left: 10px;
+    }
+}
+
